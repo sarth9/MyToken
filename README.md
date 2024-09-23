@@ -8,7 +8,7 @@ The MyToken contract allows you to create a token with a specific name, abbrevia
 ### Installing
 1. Clone the Repository:
 ```
-git clone https://github.com/DipeshChadha/EthProject.git
+git clone https://github.com/sarth9/MyToken.git
 cd mytoken
 ```
 
