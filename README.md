@@ -22,7 +22,7 @@ If you are using a local development environment, make sure to install all neces
 To deploy and interact with the contract, follow these steps:
 
 1. Compile the Contract:
-Open the MyToken.sol file in Remix or your IDE, and compile it to check for any errors.
+Open the mytoken.sol file in Remix or your IDE, and compile it to check for any errors.
 
 2. Deploy the Contract:
 In Remix, choose the appropriate environment and click on the "Deploy" button.
@@ -33,20 +33,20 @@ Mint Tokens:
 Use the mint function to increase the supply of tokens.
 ```
 // Example to mint 100 tokens to the specified address
-myToken.mint("0xYourAddressHere", 100);
+mint("0xYourAddressHere", 100);
 ```
 Burn Tokens:
 Use the burn function to reduce the supply of tokens.
 ```
 // Example to burn 50 tokens from the specified address
-myToken.burn("0xYourAddressHere", 50);
+burn("0xYourAddressHere", 50);
 ```
 
 4. Verify Balances:
 You can check the balance of any address using the balances mapping.
 ```
 // Example to check the balance of an address
-uint balance = myToken.balances("0xYourAddressHere");
+uint balance = balances("0xYourAddressHere");
 ```
 
 ## Help
@@ -56,7 +56,7 @@ Common issues and solutions:
 The burn function checks if the address has sufficient balance before proceeding. Ensure that the address has enough tokens to burn.
 ```
 // Command to view more details
-myToken.balances("0xYourAddressHere");
+balances("0xYourAddressHere");
 ```
 
 ## Authors
